@@ -1,0 +1,19 @@
+img {
+    height: auto;
+    width: 500px;
+    border-radius: 30px;
+  }
+  ul:hover {
+  
+    list-style-type:circle;
+    list-style-position: inside;
+  }
+  h2:hover{
+    background-color: rgb(107, 64, 128);
+  }
+  ol:hover {
+  
+    list-style-type: square;
+    list-style-position: inside;
+  }
+  

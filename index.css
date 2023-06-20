@@ -1,0 +1,9 @@
+img {
+    height: auto;
+    width: 500px;
+    border-radius: 30px;
+  }
+
+  h4:hover{
+    background-color: rgb(107, 64, 128);
+  }
