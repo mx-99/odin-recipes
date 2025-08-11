@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    text-align: center;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    border-bottom: 10px solid black;
+
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border: 10px dashed transparent;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue) 1;
+}
+
+.center{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+ul,
+a{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    background-color: khaki;
+    color: slategrey;
+}
